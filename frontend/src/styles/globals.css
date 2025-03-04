@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.exercise-content {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #3f51b5;
+}
+
+.feedback-item {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.feedback-item.positive {
+  background-color: rgba(76, 175, 80, 0.1);
+  border-left: 3px solid #4caf50;
+}
+
+.feedback-item.negative {
+  background-color: rgba(244, 67, 54, 0.1);
+  border-left: 3px solid #f44336;
+}
+
+.feedback-item.neutral {
+  background-color: rgba(33, 150, 243, 0.1);
+  border-left: 3px solid #2196f3;
+}
+
+.badge-card {
+  transition: transform 0.3s ease;
+}
+
+.badge-card:hover {
+  transform: translateY(-5px);
+}
+
+.mermaid {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} 
